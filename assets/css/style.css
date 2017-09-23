@@ -40,16 +40,16 @@ nav {
 	padding: 13px 0px;
 }
 
-nav a {
+a {
 	text-decoration: none;
 }
-nav a:link {
+a:link {
 	color: #999;
 }
-nav a:visited {
+a:visited {
 	color: #066661;
 }
-nav a:hover {
+a:hover {
 	color: #000;
 }
 
