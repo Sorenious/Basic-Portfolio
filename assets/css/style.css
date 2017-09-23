@@ -43,9 +43,14 @@ nav {
 nav a {
 	text-decoration: none;
 }
-
+nav a:link {
+	color: #999;
+}
 nav a:visited {
 	color: #666;
+}
+nav a:hover {
+	color: #000;
 }
 
 li {
