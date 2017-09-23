@@ -4,38 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
   <header>
-    <h1>Christopher Soren</h1>
+    <div class="container">
+      <h1>Christopher Soren</h1>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="container">
-    <section id="portfolio">
+    <section class="main">
       <h2>Portfolio</h2>
       <hr>
-      <img id="image" src="assets/images/placeholder.jpg" width="200" height="200" alt="Placeholder">
-      <img id="image" src="assets/images/placeholder.jpg" width="200" height="200" alt="Placeholder">
-      <img id="image" src="assets/images/placeholder.jpg" width="200" height="200" alt="Placeholder">
-      <img id="image" src="assets/images/placeholder.jpg" width="200" height="200" alt="Placeholder">
-      <img id="image" src="assets/images/placeholder.jpg" width="200" height="200" alt="Placeholder">
+      <img class="image" src="assets/images/placeholder.jpg" width="274" height="200" alt="Placeholder">
+      <img class="image" src="assets/images/placeholder.jpg" width="274" height="200" alt="Placeholder">
+      <img class="image" src="assets/images/placeholder.jpg" width="274" height="200" alt="Placeholder">
+      <img class="image" src="assets/images/placeholder.jpg" width="274" height="200" alt="Placeholder">
+      <img class="image" src="assets/images/placeholder.jpg" width="274" height="200" alt="Placeholder">
+      <a href="http://sorenthroughlife.com/webproject/index.html"><img id="image" src="assets/images/minepage.png" width="273" height="200" alt="Minecraft Fanpage Thumbnail"></a>
     </section>
-    <section id="connect">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><a href="https://github.com/Sorenious" target="_blank"><img src="assets/images/if_github_square_black_107109.png" width="32" height="32" alt="GitHub Logo"></a></li>
-        <li><a href="https://www.linkedin.com/in/christopher-soren-a52848117/" target="_blank"><img src="assets/images/if_social-linkedin-square1_771369.png" width="32" height="32" alt="LinkedIn Logo"></a></li>
-        <li><a href="https://stackoverflow.com/users/8560772/sirier"><img src="assets/images/if_overflow_334695.png" width="32" height="32" alt="Stack Overflow Logo"></a></li>
-      </ul>
+    <section class="connect">
+      <h3>Connect With Me</h3>
+      <hr>
+      <a href="https://github.com/Sorenious" target="_blank"><img src="assets/images/if_github_square_black_107109.png" alt="GitHub Logo"></a>
+        <a href="https://www.linkedin.com/in/christopher-soren-a52848117/" target="_blank"><img src="assets/images/if_social-linkedin-square1_771369.png" alt="LinkedIn Logo"></a>
+        <a href="https://stackoverflow.com/users/8560772/sirier"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow Logo"></a>
     </section>
   </div>
   <footer>
