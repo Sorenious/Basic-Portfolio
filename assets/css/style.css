@@ -67,7 +67,7 @@ hr {
 
 .container {
 	height: auto;
-	width: 920px;
+	width: 960px;
 	margin: 0 auto;
 	flex: 1 0 auto;
 }
@@ -115,7 +115,7 @@ h4 {
 
 .connect {
 	border: 1px solid #ddd;
-	width: 190px;	
+	width: 230px;	
 	padding: 20px;
 	float: right;
 	background-color: #FFFFFF;
@@ -124,18 +124,27 @@ h4 {
 .connect img {
 	display: inline;
 	clear: both;
-	width: 48px;
-	height: 48px;
+	width: 64px;
+	height: 64px;
 }
 
 #linkedin {
-	margin: 0px 18px;
+	margin: 0px 14px;
 }
 
 .connect h3 {
 	margin: 0 auto;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+}
+
+.showcase {
+	width: 230px;	
+	padding: 20px;
+	position: relative;
+	top: 10%;
+	right: 0;
+	float: right;
 }
 
 footer {
