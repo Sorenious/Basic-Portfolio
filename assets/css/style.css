@@ -1,11 +1,10 @@
 html, body {
-	color: #777777;
+	color: #111111;
 	height: 100%;
 }
 
 header {
-	border-bottom: 1px solid #ccc;
-	background-color: #ffffff;
+	background-color: #C3C3C3;
 	margin-bottom: 30px;
 }
 
@@ -21,17 +20,17 @@ body {
 
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
+	background-color: #AA0000;
 	padding: 20px;
 	margin: 0px;
 	border: 0px;
 	display: inline-block;
-	color: white;
+	color: #C3C3C3;
 }
 
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+	color: #AA0000;
 }
 
 nav {
@@ -46,10 +45,10 @@ a {
 	text-decoration: none;
 }
 a:link {
-	color: #999;
+	color: #AA0000;
 }
 a:visited {
-	color: #066661;
+	color: #660000;
 }
 a:hover {
 	color: #000;
@@ -76,7 +75,7 @@ hr {
 	border: 1px solid #ddd;
 	width: 610px;
 	padding: 10px 20px 20px 20px;
-	background-color: #ffffff;
+	background-color: #C3C3C3;
 	float: left;
 }
 
@@ -101,7 +100,7 @@ p {
 
 .label {
 	color: #000;
-	background-color: #4aaaa5;
+	background-color: #AA0000;
 	text-align: center;
 	position: absolute;
 	width: 274px;
@@ -118,7 +117,7 @@ h4 {
 	width: 230px;	
 	padding: 20px;
 	float: right;
-	background-color: #FFFFFF;
+	background-color: #C3C3C3;
 }
 
 .connect img {
@@ -135,7 +134,7 @@ h4 {
 .connect h3 {
 	margin: 0 auto;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+	color: #AA0000;
 }
 
 .showcase {
@@ -145,6 +144,7 @@ h4 {
 	top: 10%;
 	right: 0;
 	float: right;
+	color: #777777;
 }
 
 footer {
@@ -154,7 +154,7 @@ footer {
 #copyright {
 	background-color: #666666;
 	border-top: 10px solid;
-	border-color: #4aaaa5;
+	border-color: #AA0000;
 	text-align: center;
 	padding: 30px;
 	margin: 0px;
