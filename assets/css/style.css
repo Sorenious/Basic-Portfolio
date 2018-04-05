@@ -52,6 +52,7 @@ a:visited {
 }
 a:hover {
 	color: #000;
+	text-shadow: 0px 0px #999999, 0px 0px #999999, 0px 0px #999999, 0px 0px #999999;
 }
 
 li {
@@ -106,7 +107,7 @@ p {
 	width: 274px;
 	left: 15px;
 	bottom: 35px;
-	opacity: .75;
+	opacity: .85;
 }
 
 h4 {
@@ -118,6 +119,7 @@ h4 {
 	padding: 20px;
 	float: right;
 	background-color: #C3C3C3;
+	align-content: center;
 }
 
 .connect img {
@@ -158,5 +160,5 @@ footer {
 	text-align: center;
 	padding: 30px;
 	margin: 0px;
-	color: white;
+	color: #000000;
 }
